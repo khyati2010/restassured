@@ -1,4 +1,4 @@
-# gramLabs - Services Test Automation
+# Services Test Automation
 
 For new automated test project - [create new IntelliJ/eclipse project
 
