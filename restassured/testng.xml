@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Test Suite" parallel="classes"
+	thread-count="1">
+	<listeners>
+		<listener class-name="org.utility.RetryListener" />
+	</listeners>
+	<test name="API Test Suite">
+		<parameter name="testrun_Id" value="1" />
+		<parameter name="base" value="" />
+		<parameter name="host" value="http://192.168.99.100/" />
+		<parameter name="port" value="9000" />
+		<classes>
+			<class name="org.tests.RestApiTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

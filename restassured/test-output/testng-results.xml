@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5985" started-at="2017-07-09T06:55:04Z" finished-at="2017-07-09T06:55:10Z">
+    <groups>
+      <group name="Regression">
+        <method signature="ActivityResultAPITest.verifyPostAPIActivityResultWithInvalidAuthToken()[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="verifyPostAPIActivityResultWithInvalidAuthToken" class="org.tests.ActivityResultAPITest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="ActivityResultAPITest.verifyPostAPIActivityResultWithInvalidAuthToken()[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="verifyPostAPIActivityResultWithInvalidAuthToken" class="org.tests.ActivityResultAPITest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="5985" started-at="2017-07-09T06:55:04Z" finished-at="2017-07-09T06:55:10Z">
+      <class name="org.tests.ActivityResultAPITest">
+        <test-method status="PASS" signature="propertyInit()[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="propertyInit" is-config="true" duration-ms="12" started-at="2017-07-09T12:25:04Z" finished-at="2017-07-09T12:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyInit -->
+        <test-method status="PASS" signature="testRailInit()[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="testRailInit" is-config="true" duration-ms="4" started-at="2017-07-09T12:25:04Z" finished-at="2017-07-09T12:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRailInit -->
+        <test-method status="PASS" signature="runIDUpdate(java.lang.String)[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="runIDUpdate" is-config="true" duration-ms="3" started-at="2017-07-09T12:25:04Z" finished-at="2017-07-09T12:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runIDUpdate -->
+        <test-method status="PASS" signature="restSetup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="restSetup" is-config="true" duration-ms="707" started-at="2017-07-09T12:25:04Z" finished-at="2017-07-09T12:25:05Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restSetup -->
+        <test-method status="PASS" signature="verifyPostAPIActivityResultWithInvalidAuthToken()[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="verifyPostAPIActivityResultWithInvalidAuthToken" duration-ms="5254" started-at="2017-07-09T12:25:05Z" description="-Verifying the error message on passing a invalid Cookie in POST API &#039;/activity_results/{activityId}&#039;" finished-at="2017-07-09T12:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostAPIActivityResultWithInvalidAuthToken -->
+        <test-method status="PASS" signature="testMethodEnd()[pri:0, instance:org.tests.ActivityResultAPITest@551aa95a]" name="testMethodEnd" is-config="true" duration-ms="1" started-at="2017-07-09T12:25:10Z" finished-at="2017-07-09T12:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodEnd -->
+      </class> <!-- org.tests.ActivityResultAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

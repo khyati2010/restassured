@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [API Automation Test Suite]" parallel="classes">
+  <parameter name="port" value="9000"/>
+  <parameter name="host" value="http://192.168.99.100/"/>
+  <parameter name="testrun_Id" value=""/>
+  <parameter name="base" value=""/>
+  <listeners>
+    <listener class-name="org.utility.RetryListener"/>
+    <listener class-name="org.utility.Reporting"/>
+  </listeners>
+  <test name="API Test Suite(failed)" parallel="classes">
+    <parameter name="port" value="9000"/>
+    <parameter name="host" value="http://192.168.99.100/"/>
+    <parameter name="testrun_Id" value=""/>
+    <parameter name="base" value=""/>
+    <classes>
+      <class name="org.tests.RestApiTest">
+        <methods>
+          <include name="enrolUserInAnExistingActivities"/>
+          <include name="testMethodEnd"/>
+          <include name="getActivityIdWithDifficultyParameter"/>
+          <include name="getActivityWithAnActivityId"/>
+          <include name="getUserActivities"/>
+          <include name="propertyInit"/>
+          <include name="testRailInit"/>
+          <include name="runIDUpdate"/>
+          <include name="enrolAndDisenrollUserInAnActivities"/>
+          <include name="restSetup"/>
+        </methods>
+      </class> <!-- org.tests.RestApiTest -->
+    </classes>
+  </test> <!-- API Test Suite(failed) -->
+</suite> <!-- Failed suite [API Automation Test Suite] -->
